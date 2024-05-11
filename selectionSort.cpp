@@ -31,14 +31,14 @@ Node* copyList(int, Node**);
 
 int main()
 {
-   Node* vetor[4];
-    double vetor_tempo[13];
+    Node* vetor[100];
+    double vetor_tempo[100];
 
     // Gerar listas aleatórias
-    for (int i = 0; i < 3; ++i)
+    for (int i = 0; i < 100; ++i)
     {  
-        Node* head = createRandomList(10);
-        Node* head_copia = copyList(10, &head); 
+        Node* head = createRandomList(10000);
+        Node* head_copia = copyList(10000, &head); 
 
         auto timeStart = high_resolution_clock::now();
         selectionSort(head);

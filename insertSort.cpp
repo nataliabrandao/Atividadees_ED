@@ -29,13 +29,13 @@ void insertionSort (Node* );
 
 int main()
 {
-    Node* vetor[5];
-    double vetor_tempo[5];
+    Node* vetor[100];
+    double vetor_tempo[100];
 
     // Gerar listas aleatórias
-    for (int i = 0; i < 5; ++i)
+    for (int i = 0; i < 100; ++i)
     {
-        vetor[i] = createRandomList(10);
+        vetor[i] = createRandomList(10000);
 
         auto timeStart = high_resolution_clock::now();
         insertionSort(vetor[i]);
