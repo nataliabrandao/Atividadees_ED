@@ -100,9 +100,11 @@ Node* createRandomList(int numElements)
 {
     Node* head = nullptr;
 
+    srand(time(0));
+
     for (int i = 0; i < numElements; i++)
     {
-        insertEnd(&head, rand() % 100); // Gera números aleatórios entre 0 e 99
+        insertEnd(&head, rand() % 101); // Gera números aleatórios entre 1 e 100
     }
     return head;
 }
