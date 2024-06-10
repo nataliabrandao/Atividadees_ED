@@ -1,9 +1,5 @@
 #pragma once
 
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-
 namespace LinkedList
 {
     // Estrutura do nó da lista duplamente encadeada
@@ -17,39 +13,43 @@ namespace LinkedList
     // Protótipos das funções
 
     template <typename T>
-    Node<T>* createNode(T iPayload);
+    Node<T>* createNode(T);
 
     template <typename T>
-    void insertEnd(Node<T>** head, T iPayload);
+    void insertEnd(Node<T>**, T );
 
     template <typename T>
-    void trocaValor(Node<T>* node1, Node<T>* node2);
+    void trocaValor(Node<T>*, Node<T>*);
 
     template <typename T>
-    Node<T>* createRandomList(int numElements);
+    Node<T>* createRandomList(int);
+    
+    template <typename T>
+    Node<T>* copyList(int, Node<T>**);
 
     template <typename T>
-    Node<T>* copyList(int numElements, Node<T>** head);
+    void displayList(Node<T>*);
 
     template <typename T>
-    void displayList(Node<T>* node);
+    Node<T>* searchNodebyValue(Node<T>** , T ); 
 
     template <typename T>
-    void bubbleSort(Node<T>* head);
+    void bubbleSort(Node<T>*);
 
     template <typename T>
-    void optimizedBubbleSort(Node<T>* head);
+    void optimizedBubbleSort(Node<T>*);
 
     template <typename T>
-    void selectionSort(Node<T>* head);
+    void selectionSort(Node<T>*);
 
     template <typename T>
-    void optimizedSelectionSort(Node<T>* head);
+    void optimizedSelectionSort(Node<T>*);
 
     template <typename T>
-    void insertionSort(Node<T>* head);
+    void insertionSort(Node<T>*);
 
     template <typename T>
-    void shellSort(Node<T>* head);
+    void shellSort(Node<T>*);
+
 
 } // namespace LinkedList

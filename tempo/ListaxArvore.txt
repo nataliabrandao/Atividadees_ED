@@ -1,0 +1,300 @@
+Interação 1  Lista: 2226184 nanoseconds
+Interação 1  arvore: 214940 nanoseconds
+
+Interação 2  Lista: 2241918 nanoseconds
+Interação 2  arvore: 208654 nanoseconds
+
+Interação 3  Lista: 2225377 nanoseconds
+Interação 3  arvore: 220159 nanoseconds
+
+Interação 4  Lista: 2243253 nanoseconds
+Interação 4  arvore: 201528 nanoseconds
+
+Interação 5  Lista: 10506151 nanoseconds
+Interação 5  arvore: 215192 nanoseconds
+
+Interação 6  Lista: 2472411 nanoseconds
+Interação 6  arvore: 223539 nanoseconds
+
+Interação 7  Lista: 2225911 nanoseconds
+Interação 7  arvore: 200308 nanoseconds
+
+Interação 8  Lista: 10247521 nanoseconds
+Interação 8  arvore: 223406 nanoseconds
+
+Interação 9  Lista: 2161201 nanoseconds
+Interação 9  arvore: 202490 nanoseconds
+
+Interação 10  Lista: 2509477 nanoseconds
+Interação 10  arvore: 209043 nanoseconds
+
+Interação 11  Lista: 11525108 nanoseconds
+Interação 11  arvore: 209703 nanoseconds
+
+Interação 12  Lista: 2160533 nanoseconds
+Interação 12  arvore: 573191 nanoseconds
+
+Interação 13  Lista: 12513577 nanoseconds
+Interação 13  arvore: 210395 nanoseconds
+
+Interação 14  Lista: 14360068 nanoseconds
+Interação 14  arvore: 213386 nanoseconds
+
+Interação 15  Lista: 2183467 nanoseconds
+Interação 15  arvore: 203789 nanoseconds
+
+Interação 16  Lista: 2156939 nanoseconds
+Interação 16  arvore: 227249 nanoseconds
+
+Interação 17  Lista: 11368325 nanoseconds
+Interação 17  arvore: 326987 nanoseconds
+
+Interação 18  Lista: 2161688 nanoseconds
+Interação 18  arvore: 225587 nanoseconds
+
+Interação 19  Lista: 12447717 nanoseconds
+Interação 19  arvore: 212242 nanoseconds
+
+Interação 20  Lista: 2173864 nanoseconds
+Interação 20  arvore: 201605 nanoseconds
+
+Interação 21  Lista: 2289066 nanoseconds
+Interação 21  arvore: 10504321 nanoseconds
+
+Interação 22  Lista: 2164695 nanoseconds
+Interação 22  arvore: 213177 nanoseconds
+
+Interação 23  Lista: 2153223 nanoseconds
+Interação 23  arvore: 220499 nanoseconds
+
+Interação 24  Lista: 11851715 nanoseconds
+Interação 24  arvore: 199069 nanoseconds
+
+Interação 25  Lista: 2290715 nanoseconds
+Interação 25  arvore: 213016 nanoseconds
+
+Interação 26  Lista: 12843763 nanoseconds
+Interação 26  arvore: 214119 nanoseconds
+
+Interação 27  Lista: 2163476 nanoseconds
+Interação 27  arvore: 211906 nanoseconds
+
+Interação 28  Lista: 2165710 nanoseconds
+Interação 28  arvore: 220327 nanoseconds
+
+Interação 29  Lista: 12108049 nanoseconds
+Interação 29  arvore: 208887 nanoseconds
+
+Interação 30  Lista: 2162022 nanoseconds
+Interação 30  arvore: 224651 nanoseconds
+
+Interação 31  Lista: 12525628 nanoseconds
+Interação 31  arvore: 204587 nanoseconds
+
+Interação 32  Lista: 2208834 nanoseconds
+Interação 32  arvore: 211150 nanoseconds
+
+Interação 33  Lista: 12238049 nanoseconds
+Interação 33  arvore: 221115 nanoseconds
+
+Interação 34  Lista: 2160215 nanoseconds
+Interação 34  arvore: 200112 nanoseconds
+
+Interação 35  Lista: 2247155 nanoseconds
+Interação 35  arvore: 217006 nanoseconds
+
+Interação 36  Lista: 5741351 nanoseconds
+Interação 36  arvore: 221400 nanoseconds
+
+Interação 37  Lista: 2816885 nanoseconds
+Interação 37  arvore: 205893 nanoseconds
+
+Interação 38  Lista: 2245887 nanoseconds
+Interação 38  arvore: 223701 nanoseconds
+
+Interação 39  Lista: 2432361 nanoseconds
+Interação 39  arvore: 227978 nanoseconds
+
+Interação 40  Lista: 2310719 nanoseconds
+Interação 40  arvore: 10500105 nanoseconds
+
+Interação 41  Lista: 2162828 nanoseconds
+Interação 41  arvore: 211692 nanoseconds
+
+Interação 42  Lista: 2167578 nanoseconds
+Interação 42  arvore: 206887 nanoseconds
+
+Interação 43  Lista: 12528706 nanoseconds
+Interação 43  arvore: 232243 nanoseconds
+
+Interação 44  Lista: 2287313 nanoseconds
+Interação 44  arvore: 202015 nanoseconds
+
+Interação 45  Lista: 12422109 nanoseconds
+Interação 45  arvore: 234520 nanoseconds
+
+Interação 46  Lista: 2322965 nanoseconds
+Interação 46  arvore: 201603 nanoseconds
+
+Interação 47  Lista: 12414430 nanoseconds
+Interação 47  arvore: 206160 nanoseconds
+
+Interação 48  Lista: 2289330 nanoseconds
+Interação 48  arvore: 203847 nanoseconds
+
+Interação 49  Lista: 12708230 nanoseconds
+Interação 49  arvore: 234692 nanoseconds
+
+Interação 50  Lista: 2164626 nanoseconds
+Interação 50  arvore: 222626 nanoseconds
+
+Interação 51  Lista: 2192278 nanoseconds
+Interação 51  arvore: 209457 nanoseconds
+
+Interação 52  Lista: 11967333 nanoseconds
+Interação 52  arvore: 222601 nanoseconds
+
+Interação 53  Lista: 2157996 nanoseconds
+Interação 53  arvore: 221687 nanoseconds
+
+Interação 54  Lista: 12432241 nanoseconds
+Interação 54  arvore: 232147 nanoseconds
+
+Interação 55  Lista: 2191839 nanoseconds
+Interação 55  arvore: 222255 nanoseconds
+
+Interação 56  Lista: 2160050 nanoseconds
+Interação 56  arvore: 207439 nanoseconds
+
+Interação 57  Lista: 12968483 nanoseconds
+Interação 57  arvore: 218948 nanoseconds
+
+Interação 58  Lista: 2269653 nanoseconds
+Interação 58  arvore: 204299 nanoseconds
+
+Interação 59  Lista: 11841553 nanoseconds
+Interação 59  arvore: 239265 nanoseconds
+
+Interação 60  Lista: 2205114 nanoseconds
+Interação 60  arvore: 212623 nanoseconds
+
+Interação 61  Lista: 12781752 nanoseconds
+Interação 61  arvore: 216094 nanoseconds
+
+Interação 62  Lista: 2479842 nanoseconds
+Interação 62  arvore: 216172 nanoseconds
+
+Interação 63  Lista: 13178944 nanoseconds
+Interação 63  arvore: 211393 nanoseconds
+
+Interação 64  Lista: 2515279 nanoseconds
+Interação 64  arvore: 220202 nanoseconds
+
+Interação 65  Lista: 13163632 nanoseconds
+Interação 65  arvore: 229433 nanoseconds
+
+Interação 66  Lista: 2469597 nanoseconds
+Interação 66  arvore: 202043 nanoseconds
+
+Interação 67  Lista: 13028106 nanoseconds
+Interação 67  arvore: 220195 nanoseconds
+
+Interação 68  Lista: 2159399 nanoseconds
+Interação 68  arvore: 199008 nanoseconds
+
+Interação 69  Lista: 12683687 nanoseconds
+Interação 69  arvore: 212353 nanoseconds
+
+Interação 70  Lista: 2164407 nanoseconds
+Interação 70  arvore: 215069 nanoseconds
+
+Interação 71  Lista: 13275867 nanoseconds
+Interação 71  arvore: 212243 nanoseconds
+
+Interação 72  Lista: 2195568 nanoseconds
+Interação 72  arvore: 219135 nanoseconds
+
+Interação 73  Lista: 2221023 nanoseconds
+Interação 73  arvore: 10534726 nanoseconds
+
+Interação 74  Lista: 2182051 nanoseconds
+Interação 74  arvore: 215505 nanoseconds
+
+Interação 75  Lista: 2157732 nanoseconds
+Interação 75  arvore: 209955 nanoseconds
+
+Interação 76  Lista: 12689495 nanoseconds
+Interação 76  arvore: 212308 nanoseconds
+
+Interação 77  Lista: 2157801 nanoseconds
+Interação 77  arvore: 220598 nanoseconds
+
+Interação 78  Lista: 5783413 nanoseconds
+Interação 78  arvore: 253287 nanoseconds
+
+Interação 79  Lista: 2724766 nanoseconds
+Interação 79  arvore: 208455 nanoseconds
+
+Interação 80  Lista: 2310518 nanoseconds
+Interação 80  arvore: 204747 nanoseconds
+
+Interação 81  Lista: 2220379 nanoseconds
+Interação 81  arvore: 194366 nanoseconds
+
+Interação 82  Lista: 2196963 nanoseconds
+Interação 82  arvore: 248045 nanoseconds
+
+Interação 83  Lista: 2471931 nanoseconds
+Interação 83  arvore: 201302 nanoseconds
+
+Interação 84  Lista: 2235690 nanoseconds
+Interação 84  arvore: 221564 nanoseconds
+
+Interação 85  Lista: 8253207 nanoseconds
+Interação 85  arvore: 219891 nanoseconds
+
+Interação 86  Lista: 2212242 nanoseconds
+Interação 86  arvore: 260046 nanoseconds
+
+Interação 87  Lista: 2385571 nanoseconds
+Interação 87  arvore: 219421 nanoseconds
+
+Interação 88  Lista: 2722190 nanoseconds
+Interação 88  arvore: 218690 nanoseconds
+
+Interação 89  Lista: 4611389 nanoseconds
+Interação 89  arvore: 226911 nanoseconds
+
+Interação 90  Lista: 3877537 nanoseconds
+Interação 90  arvore: 223566 nanoseconds
+
+Interação 91  Lista: 2174784 nanoseconds
+Interação 91  arvore: 209446 nanoseconds
+
+Interação 92  Lista: 2270874 nanoseconds
+Interação 92  arvore: 226010 nanoseconds
+
+Interação 93  Lista: 2200178 nanoseconds
+Interação 93  arvore: 207359 nanoseconds
+
+Interação 94  Lista: 2207873 nanoseconds
+Interação 94  arvore: 215463 nanoseconds
+
+Interação 95  Lista: 4912928 nanoseconds
+Interação 95  arvore: 221955 nanoseconds
+
+Interação 96  Lista: 2688347 nanoseconds
+Interação 96  arvore: 200721 nanoseconds
+
+Interação 97  Lista: 2213372 nanoseconds
+Interação 97  arvore: 1343049 nanoseconds
+
+Interação 98  Lista: 2162666 nanoseconds
+Interação 98  arvore: 210045 nanoseconds
+
+Interação 99  Lista: 2185575 nanoseconds
+Interação 99  arvore: 218513 nanoseconds
+
+Interação 100  Lista: 2258170 nanoseconds
+Interação 100  arvore: 208134 nanoseconds
+

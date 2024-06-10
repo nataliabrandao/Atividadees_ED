@@ -1,6 +1,6 @@
+#include <iostream> 
 #include <chrono>
 #include <cstdlib>
-#include <ctime> 
 
 #include "node.h"
 
@@ -14,22 +14,25 @@ using std::chrono::high_resolution_clock;
 using std::chrono::duration_cast;
 using std::chrono::nanoseconds;
 
+// main para o insertsort
 int main() 
 {
-    Node<int>* vetor[100];
+    LinkedList::Node<int>* vetor[100];
     double vetor_tempo[100];
 
     // Gerar listas aleatórias
     for (int i = 0; i < 100; ++i)
     {
-        vetor[i] = createRandomList<int>(10000);
+        vetor[i] = LinkedList::createRandomList<int>(10000);
 
         auto timeStart = high_resolution_clock::now();
-        insertionSort<int>(vetor[i]);
+        LinkedList::insertionSort(vetor[i]);
         auto timeStop = high_resolution_clock::now();
 
         auto timeDuration = duration_cast<nanoseconds>(timeStop - timeStart);
         vetor_tempo[i] = timeDuration.count();
-
+        cout << "Tempo utilizado do insertSort para a Lista " << i + 1 << ": " << vetor_tempo[i] << " nanosegundos" << endl;
     }
+    
+    return 0; 
 }

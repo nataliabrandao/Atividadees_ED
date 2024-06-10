@@ -1,7 +1,6 @@
-
+#include <iostream> 
 #include <chrono>
 #include <cstdlib>
-#include <ctime> 
 
 #include "node.h"
 
@@ -15,32 +14,35 @@ using std::chrono::high_resolution_clock;
 using std::chrono::duration_cast;
 using std::chrono::nanoseconds;
 
-
+// main para o bubblesort e optimizedbubblesort
 int main() 
 {
-    Node<int>* vetor[100];
+    LinkedList::Node<int>* vetor[100];
     double vetor_tempo[100];
 
     // Gerar listas aleatórias
     for (int i = 0; i < 100; ++i)
     {
-        vetor[i] = createRandomList<int>(10000);
-        Node<int>* vetor_copia = copyList<int>(10000, &vetor[i]);
+        LinkedList::Node<int>* head = LinkedList::createRandomList<int>(10000);
+        LinkedList::Node<int>* head_copia = LinkedList::copyList<int>(10000, &head);
 
-        // Bubble Sort
         auto timeStart = high_resolution_clock::now();
-        bubbleSort<int>(vetor[i]);
+        LinkedList::bubbleSort(head);
         auto timeStop = high_resolution_clock::now();
-        auto timeDuration = duration_cast<nanoseconds>(timeStop - timeStart);
-        vetor_tempo_bubble[i] = timeDuration.count();
-        cout << "Tempo utilizado do bubbleSort para a Lista " << i + 1 << ": " << vetor_tempo_bubble[i] << " nanosegundos" << endl;
 
-        // Optimized Bubble Sort
+        auto timeDuration = duration_cast<nanoseconds>(timeStop - timeStart);
+        vetor_tempo[i] = timeDuration.count();
+        cout << "Tempo utilizado do bubbleSort para a Lista " << i + 1 << ": " << vetor_tempo[i] << " nanosegundos" << endl;
+
         timeStart = high_resolution_clock::now();
-        optimizedBubbleSort<int>(vetor_copia);
+        LinkedList::optimizedBubbleSort(head_copia);
         timeStop = high_resolution_clock::now();
+
         timeDuration = duration_cast<nanoseconds>(timeStop - timeStart);
-        vetor_tempo_optimized_bubble[i] = timeDuration.count();
-        cout << "Tempo utilizado do optimizedBubbleSort para a Lista " << i + 1 << ": " << vetor_tempo_optimized_bubble[i] << " nanosegundos" << endl;
+        vetor_tempo[i] = timeDuration.count();
+        cout << "Tempo utilizado do optimizedBubblesort para a Lista " << i + 1 << ": " << vetor_tempo[i] << " nanosegundos" << endl;
+
     }
+
+    return 0;
 }

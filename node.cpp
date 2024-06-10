@@ -2,6 +2,8 @@
 #include <cstdlib>
 
 #include "node.h"
+#include "arvorebinaria.h"
+
 
 using namespace std;
 
@@ -10,7 +12,7 @@ namespace LinkedList
     template <typename T>
     Node<T>* createNode(T iPayload)
     {
-        Node<T>* temp = (Node<T>*) malloc(sizeof(Node<T>*));
+        Node<T>* temp = (Node<T>*) malloc(sizeof(Node<T>));
         temp->iPayload = iPayload;
         temp->ptrNext = nullptr;
         temp->ptrPrev = nullptr;
@@ -22,13 +24,13 @@ namespace LinkedList
     {
         Node<T>* newNode = createNode(iPayload);
 
-        if (*head == nullptr)
+        if ((*head) == nullptr)
         {
-            *head = newNode;
+            (*head ) = newNode;
             return;
         }
 
-        Node<T>* temp = *head;
+        Node<T>* temp = (*head);
         while (temp->ptrNext != nullptr)
         {
             temp = temp->ptrNext;
@@ -258,30 +260,97 @@ namespace LinkedList
             temp = temp->ptrNext;
         }
 
-        for (int gap = size / 2; gap > 0; gap /= 2)
+        //cout << "Tamanho da lista: " << size << endl;
+
+        for (int gap = size / 2; gap >= 1; gap /= 2)
         {
-            for (int i = gap; i < size; ++i)
+            //cout << "Gap atual: " << gap << endl;
+
+            for (int i = gap; i < size; i++)
             {
                 Node<T>* current = head;
-                for (int j = 0; j < i; ++j)
+                for (int j = 0; j < i; j++)
                 {
                     current = current->ptrNext;
                 }
 
                 Node<T>* current2 = current;
-                for (int j = gap; j > 0 && current2 != nullptr; --j)
+                //cout << "Comparando e possivelmente trocando valores..." << endl;
+
+                for (int j = gap; j > 0 && current2 != nullptr; j--)
                 {
-                    Node<T>* temp = current2;
-                    while (temp->iPayload < temp->ptrPrev->iPayload && temp != nullptr)
+                    Node<T>* prev = current2;
+                
+                    for (int k = 0; k < gap && current2 != nullptr; k++)
                     {
-                        trocaValor(temp, temp->ptrPrev);
-                        temp = temp->ptrPrev;
+                        current2 = current2->ptrPrev;
+                    }
+
+                    if (current2 != nullptr)
+                {
+                    //cout << "Comparando " << current2->iPayload << " e " << prev->iPayload << endl;
+                    if (current2->iPayload > prev->iPayload)
+                    {
+                        //cout << "Trocando " << current2->iPayload << " e " << prev->iPayload << endl;
+                        trocaValor(current2, prev);
                     }
                 }
             }
         }
-}
+    }
+    //cout << "Lista ordenada:" << endl;
+    //displayList(head);
+    }
 
-} // namespace LinkedList
+    template <typename T>
+    Node<T>* searchNodebyValue(Node<T>** head, T iPayload)
+    {
+    
+        // Inicialmente, definimos um ponteiro para percorrer a lista, começando pelo início
+        Node<T>* current = (*head);
+
+        // Percorremos a lista até encontrar o valor ou chegar ao final da lista
+        while (current != nullptr)
+        {
+            // Se encontrarmos o valor, retornamos o ponteiro para esse nó
+            if (current->iPayload == iPayload)
+            {
+                //cout << "Valor encontrado!" << endl;
+                return current;
+            }
+
+            // Avançamos para o próximo nó
+            current = current->ptrNext;
+        }
+
+        // Se não encontrarmos o valor em nenhum nó, retornamos nullptr
+        //cout << "Valor não encontrado na lista." << endl;
+        return nullptr;
+    }
+
+
+// Instanciação explícita para os tipos inteiros
+    template Node<int>* createNode(int);
+    template void  insertEnd(Node<int>**, int);
+    template void trocaValor(Node<int>*, Node<int>*);
+    template Node<int>* createRandomList(int);
+    template Node<int>* copyList(int, Node<int>**);
+    template void displayList(Node<int>*);
+    template Node<int>* searchNodebyValue(Node<int>** , int ); 
+
+    template void bubbleSort(Node<int>*);
+    template void optimizedBubbleSort(Node<int>*);
+    template void selectionSort(Node<int>*); 
+    template void optimizedSelectionSort(Node<int>*); 
+    template void insertionSort(Node<int>*);
+    template void shellSort(Node<int>* ); 
+
+    // intanciação explícita para os tipos BinaryTree::Node<int>*
+    template Node<arvorebinaria::Node<int>*>* createNode(arvorebinaria::Node<int>*);
+    
+    
+    } // namespace LinkedList
+
+   
 
 
