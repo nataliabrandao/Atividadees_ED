@@ -12,8 +12,8 @@ O projeto está organizado da seguinte forma:
 - **main3.cpp**: Especial para o tempo utlizado pelo insertSort. 
 - **main4.cpp**: Especial para o tempo utlizado pelo shellsort. 
 - **main5.cpp**: Especial para a comparação de tempo utilizado pelo Bfs e Dfs, além da comparação do desempenho de criação de listas e árvores. 
- **node.cpp**: Construção de funções de algoritmos de ordenação e manipulação de listas.
- **arvorebinaria.cpp**: Construção de funções de manipulação de árvores binárias. 
+ - **node.cpp**: Construção de funções de algoritmos de ordenação e manipulação de listas.
+- **arvorebinaria.cpp**: Construção de funções de manipulação de árvores binárias. 
 
 ## ## Clonar o Repositório
 
@@ -32,7 +32,7 @@ cd Atividadees_ED
 ## Colaboradores
 * [Natália Brandão de Sousa](https://github.com/nataliabrandao)
 
-<img src="img/github.jpeg" alt="Imagem de perfil do GitHub de Nat" width="200" />
+<img src="img/github.jpeg" alt="Imagem de perfil do GitHub de Nat" width="160" />
 
     
 
