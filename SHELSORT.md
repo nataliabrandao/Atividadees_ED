@@ -1,7 +1,6 @@
 
 ### Descrição do Shell Sort
 
-```markdown
 ## Shell Sort
 
 O Shell Sort é um algoritmo de ordenação que generaliza a ordenação por inserção, permitindo a troca de elementos distantes. Ele funciona utilizando uma sequência de intervalos (gaps) decrescentes. A lista é dividida em sublistas baseadas nesses gaps e cada sublista é ordenada usando a ordenação por inserção. 
