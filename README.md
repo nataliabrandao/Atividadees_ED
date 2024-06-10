@@ -30,8 +30,9 @@ cd Atividadees_ED
 ```
 
 ## Colaboradores
- * <a href="https://github.com/nataliabrandao">Natália Brandão de Souza 'Nat'</a>
+* [Natália Brandão de Souza 'Nat'](https://github.com/nataliabrandao)
 
-    ![Picture, with CONSENT, of a team member](img/github.jpeg)
+<img src="img/github.jpeg" alt="Imagem de perfil do GitHub de Nat" width="200" />
+
     
 
